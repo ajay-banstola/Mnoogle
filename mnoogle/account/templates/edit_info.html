@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{%block title%}Edit User Info{% endblock %}
+
+
+{% block body %}
+    {% include 'navbar.html' %}
+    <div class="container">
+    <section class="h-100">
+        <div class="container h-100">
+            <div class="row justify-content-md-center h-100">
+                <div class="card-wrapper">
+                    <div class="brand">
+                        <a href = "/"><img src="{% static  'account/img/logo.png'%}"></a>
+                    </div>
+                    <div class="card fat">
+                        <div class="card-body">
+                            <h4 class="card-title">Edit User Info</h4>
+                            <div class="form-group">
+                                {% if messages %}
+                                <ul class="messages">
+                                    {% for message in messages %}
+                                    <li>
+                                        <div class="alert alert-success alert-dismissable">{{ message }}</div>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </div>
+
+                            <form method="POST" action="">
+                                {% csrf_token %}
+                                <div class="form-group">
+                                {{ form.as_p }}
+                                </div>
+                                {{ form.updated_at}}
+                                {{ form.updated_at.errors }}
+                            <div>
+                            <button class="btn btn-primary btn-block"  type="submit">Submit</button>
+                            </div>
+
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <script src="{% static 'account/js/jquery.min.js'%}"></script>
+    <script src="{% static 'account/bootstrap/js/bootstrap.min.js'%}"></script>
+    <script src="{% static 'account/js/my-login.js'%}"></script>
+    </div>
+{% endblock %}
+

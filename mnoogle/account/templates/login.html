@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block title%}Login Page{% endblock %}
+
+
+{% block body %}
+    <div class="container">
+        <section class="h-100">
+            <div class="container h-100">
+                <div class="row justify-content-md-center h-200">
+                    <div class="card-wrapper">
+                        <div class="brand">
+						<a href="{% url 'landingpage:landingpage' %}">
+						<img src="{% static  'account/img/logo.png'%}">
+						</a>
+                        </div>
+                        <div class="card fat">
+                            <div class="card-body">
+                                <h4 class="card-title">Login</h4>
+
+                            <div class="form-group">
+                                {% if messages %}
+                                <ul class="messages">
+                                    {% for message in messages %}
+                                    <li>
+                                        <div class="alert alert-danger alert-dismissable">{{ message }}</div>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </div>
+                            <form method="POST" action="">
+                                {% csrf_token %}
+
+                                <div class="form-group">
+                                    <label for="user">User Name</label>
+                                    <input id="username" type="text" class="form-control" name="user"  placeholder="Enter username:" value="" required autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input id="password" type="password" name="psk" class="form-control" placeholder="Enter password:" required data-eye>
+                                </div>
+                                <div class="form-group no-margin">
+                                    <button class="btn btn-primary"  type="submit">Login</button>
+                                </div>
+                                <div class="margin-top20 text-center">
+                                    Don't have an account? <a href="{% url 'register' %}">Create One</a>
+                                </div>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="{% static 'account/js/jquery.min.js'%}"></script>
+    <script src="{% static 'account/bootstrap/js/bootstrap.min.js'%}"></script>
+    <script src="{% static 'account/js/my-login.js'%}"></script>
+    </div>
+{% endblock %}
