@@ -18,7 +18,7 @@ from django.contrib.auth import update_session_auth_hash
 
 
 def products(request):
-    # obj = products.objects.all().order_by('name')
+    obj = products.objects.all().order_by('name')
 
     if request.method == 'POST':
         form = products_form(request.POST)
@@ -29,7 +29,7 @@ def products(request):
 
     else:
         form = products_form()
-    return render(request, 'shop/product/list.html', {'form': form})
+    return render(request, 'jobs/product/list.html', {'form': form})
 
 
 
@@ -71,22 +71,22 @@ def login(request):
     return render(request, 'login.html')
 
 
-# Views to add product from user
+# # Views to add product from user
 @login_required(login_url="/account/login")
 def add_product(request):
-    # name =request.POST.get("name")
-    # slug =request.POST.get("slug")
-    # description = request.POST.get("description")
-    # price =request.POST.get("price")
-    # available =request.POST.get("available")
-    # stock =request.POST.get("stock")
-    # created_at =request.POST.get("created_at")
-    # updated_at =request.POST.get("updated_at")
-    # products = Mixture(name=name, slug = slug, description = description,
-    # price = price, stock=stock)
-    # products.save()
+    name =request.POST.get("name")
+    slug =request.POST.get("slug")
+    description = request.POST.get("description")
+    price =request.POST.get("price")
+    available =request.POST.get("available")
+    stock =request.POST.get("stock")
+    created_at =request.POST.get("created_at")
+    updated_at =request.POST.get("updated_at")
+    products = Mixture(name=name, slug = slug, description = description,
+    price = price, stock=stock)
+    products.save()
 
-    # return render(request, 'add_product.html')
+    return render(request, 'add_product.html')
     if request.method == 'POST':
         form = products_form(request.POST, request.FILES)
         if form.is_valid():
@@ -114,15 +114,15 @@ def profile(request):
     }
     return render(request, 'profile.html', context)
 
-@login_required(login_url="/account/login")
-def message(request):
-   # mixtures = Mixture.objects.filter(author=request.user)
-    messages = Message.objects.filter(recipient=request.user)
-    context = {
-     #   'mixtures': mixtures,
-        'messages':messages,
-    }
-    return render(request, '..\directmessages\templates\directmessage\message.html', context)
+# @login_required(login_url="/account/login")
+# def message(request):
+#    # mixtures = Mixture.objects.filter(author=request.user)
+#     messages = Message.objects.filter(recipient=request.user)
+#     context = {
+#      #   'mixtures': mixtures,
+#         'messages':messages,
+#     }
+#     return render(request, '..\directmessages\templates\directmessage\message.html', context)
 
 @login_required(login_url="/account/login")
 def logout(request):
@@ -130,7 +130,7 @@ def logout(request):
     return HttpResponseRedirect('/')
 
 
-# This is the view for changing user profile information like description,profile_picture,etc
+# # This is the view for changing user profile information like description,profile_picture,etc
 def edit_profile(request):
     if request.method == 'POST':
         form = UserForm(request.POST or None, request.FILES or None, instance=request.user.userprofile)
@@ -146,7 +146,7 @@ def edit_profile(request):
     return render(request, 'edit_profile.html', {'form': form})
 
 
-# This is the view for changing user info
+# # This is the view for changing user info
 
 def user_info(request):
     if request.method == 'POST':
@@ -165,7 +165,7 @@ def user_info(request):
         return render(request, 'edit_info.html', args)
 
 
-# View for changing the password
+# # View for changing the password
 def change_password(request):
     if request.method == 'POST':
         form = PasswordChangeForm(data=request.POST, user=request.user)

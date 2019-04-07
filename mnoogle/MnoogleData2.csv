@@ -1,0 +1,392 @@
+Id,Job,Company,Address,Deadline,URL
+1,Operations Assistant,Javra Software,"Kathmandu, Nepal","April 16, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+2,Senior Quality Assurance Engineer,UBA Solutions,"Kathmandu, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+3,Graphic Designer,KTM CTY,Kathmandu,"April 9, 2019, 11:55 p.m.",www.merojobs.com/operations-assistant-11/
+4,PHP Developer,KTM CTY,Kathmandu,"April 9, 2019, 11:55 p.m.",www.merojobs.com/senior-quality-assurance-engineer-5/
+5,Marketing Executive,Echoes Global Education,"City Center, Kamalpokhari, Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/graphic-designer-601/
+6,Small - Scale Infrastructure Expert(Engineer),KECC,"Sunwal, Nawalparasi","April 25, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+7,Senior Test Automation Engineer,COTIVITI NEPAL,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+8,District Monitoring Engineers (DME),East West Engineering Services,"Gorkha, Makawanpur, Nuwakot, Rasuwa and Dhading","April 2, 2019, 11:55 p.m.",www.merojobs.com/small-scale-infrastructure-expertengineer/
+9,Site Engineers,East West Engineering Services,"Gorkha, Makawanpur, Nuwakot, Rasuwa and Dhading","April 2, 2019, 11:55 p.m.",www.merojobs.com/senior-test-automation-engineer-2/
+10,Project Monitoring Engineer,East West Engineering Services,"Gorkha, Makawanpur, Nuwakot, Rasuwa and Dhading","April 6, 2019, 11:55 p.m.",www.merojobs.com/district-monitoring-engineers-dme-15/
+11,Online English Tutors,Bibo Global Opportunity,"Kathmandu, Nepal","April 2, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+12,School Vice-Principal,A Reputed School,"Swoyambhu Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+13,Counselor,Maple International Education,"Putalisadak, Kathmandu","April 10, 2019, 11:55 p.m.",www.merojobs.com/online-english-tutors/
+14,Secondary Level Teachers,Nightingale International Secondary School,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/school-vice-principal/
+15,Teaching Associate,BeeCreative,"Gyaneshwor, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/counselor-281/
+16,Marketing Officer,JD Internet ventures,Kathmandu,"April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+17,Digital Marketer,JD Internet ventures,Kathmandu,"April 8, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+18,Social Media Manager,Freelancer Company,"2nd Floor, House No. 384,, Buth Marg, Dhungedhara Chowk,,...","April 13, 2019, 11:55 p.m.",www.merojobs.com/marketing-officer-820/
+19,Client Service Manager,Social Media Promotion,"Lazimpat, next to Delegation of the European Union","April 3, 2019, 11:59 p.m.",www.merojobs.com/digital-marketer-2/
+20,Promoters,Rojgari Services,Kathmandu / Bhaktapur / Lalitpur,"April 4, 2019, 11:55 p.m.",www.merojobs.com/social-media-manager-17/
+21,Accountant,COTIVITI NEPAL,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+22,Chartered Accountant,Shikhar Organization Limited,"Kathmandu, Nepal","April 8, 2019, 10 p.m.",www.merojobs.com/google/login/?method=oauth2
+23,Jr. Accountant,Felt and Yarn,"Khusibun, Kathmandu, Central Development Region, Nepal","April 12, 2019, 6:55 a.m.",www.merojobs.com/accountant-1334/
+24,Account Officer,Vianet Communications,"Jawalakhel, Lalitpur","April 5, 2019, 11:55 p.m.",www.merojobs.com/chartered-accountant-41/
+25,Accountant,Tesla Diagnostic Clinic,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/jr-accountant-11/
+26,Sales Engineer (Male),The Real PBX,"Kathmandu, Nepal","April 14, 2019, 11:59 p.m.",www.merojobs.com/facebook/login/
+27,Industrial Coatings Officer,Asian Paints (Nepal),Kathmandu,"April 3, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+28,Sales Officer,RB Diamond Jewellers,"Pyukha, New Road, Kathmandu","April 2, 2019, 11:55 p.m.",www.merojobs.com/sales-engineer-38/
+29,Sales Executive,Classic Outdoors,Kathmandu,"April 11, 2019, 11:55 p.m.",www.merojobs.com/industrial-coatings-officer/
+30,Sales Executive,Hilltake Industries,Nepalgunj,"April 10, 2019, 10 p.m.",www.merojobs.com/sales-officer-401/
+31,Engineering Manager,UBA Solutions,"Kathmandu, Nepal","April 15, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+32,Senior PHP Engineer,UBA Solutions,"Kathmandu, Nepal","April 4, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+33,Senior Software Developer in Test (SDET- Programmer with QA Mindset),UBA Solutions,"Kathmandu, Nepal","April 15, 2019, 11:55 p.m.",www.merojobs.com/engineering-manager-7/
+34,Senior Javascript Engineer (Preferred ReactJS),UBA Solutions,"Kathmandu, Nepal","April 4, 2019, 11:55 p.m.",www.merojobs.com/senior-php-engineer-7/
+35,Software Architect Engineer (Javascript),UBA Solutions,"Kathmandu, Nepal","April 15, 2019, 11:55 p.m.",www.merojobs.com/senior-software-developer-in-test-sdet-programmer-with-qa-mindset/
+36,Staff Nurse,Tesla Diagnostic Clinic,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+37,Radiographer,Tesla Diagnostic Clinic,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+38,Medical Report Writer,Tesla Diagnostic Clinic,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/staff-nurse-107/
+39,Manager,Tesla Diagnostic Clinic,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/radiographer-18/
+40,Assistant -Anesthesia,Tilganga Institute of Opthalmology,Kathmandu,"April 13, 2019, 5 p.m.",www.merojobs.com/medical-report-writer-2/
+41,Director - Finance,Nepal CRS Company,"Head Office, Tokha- Kathmandu","April 7, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+42,Programme Officer-Nutrition and Health,Action Against Hunger,Nawalparasi,"April 5, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+43,Technical Officer-Nutrition and Health,Action Against Hunger,Nawalparasi,"April 5, 2019, 5 p.m.",www.merojobs.com/director-finance-2/
+44,Commercial Sales Director,Marie Stopes Products and Trading,based in Kathmandu with significant field travel,"April 7, 2019, 5 p.m.",www.merojobs.com/programme-officer-nutrition-and-health/
+45,Senior Program Manager - CRG & CP,Save the Children,Kathmandu,"April 5, 2019, 5 p.m.",www.merojobs.com/technical-officer-nutrition-and-health-4/
+46,Administrator,Tesla Diagnostic Clinic,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+47,Intern,Classic Outdoors,Kathmandu,"April 11, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+48,Store Manager/ Cashier,Pioneer Trade Concern,"Kathmandu, Nepal","April 14, 2019, 11:55 p.m.",www.merojobs.com/administrator-29/
+49,Operations Assistant,Javra Software,"Kathmandu, Nepal","April 16, 2019, 11:55 p.m.",www.merojobs.com/intern-42/
+50,Chief Executive Officer (CEO),Golyan Group,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/store-manager-cashier-2/
+51,Operation Manager,Times Remit,Kathmandu,"April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+52,Branch Manager,Deva Bikas Bank Limited,"Pokhara, Baneshwor, Mahendranagar, Tandi & Upcoming Branc...","April 2, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+53,Trainee Assistant,Siddhartha Bank,Inside and Outside Valley,"April 15, 2019, 11:55 p.m.",www.merojobs.com/operation-manager-82/
+54,Finance Manager/ Finance Analyst,Shivam Plastic Industries,"Biratnagar, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/branch-manager-87/
+55,Air Ticket Officer (Domestic and International),Trans Holidays Travel and Tours,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+56,Hotel Manager,Hotel Darwin,"Nayabazar Marg, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+57,Hotel Manager,Shaligram Hotel,Jawalakhel,"April 5, 2019, 11:55 p.m.",www.merojobs.com/air-ticket-officer-domestic-and-international-2/
+58,Head Chef and Culinary Instructor,ROKPA Guest House,Pokhara Nepal,"April 10, 2019, 11:55 p.m.",www.merojobs.com/hotel-manager-10/
+59,Assistant Manager,The Nana Hotels,Pokara/,"April 7, 2019, 11:55 p.m.",www.merojobs.com/hotel-manager-13/
+60,Content Writer,Social Media Promotion,"Gairidhara, Kathmandu","April 3, 2019, 11:59 p.m.",www.merojobs.com/facebook/login/
+61,Sr. Social Media Associate,daraz.com.np,Kathmandu,"April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+62,Senior Financial Content Writer,IMS Investment Management Services,"Kathmandu, Nepal","April 2, 2019, 11:55 p.m.",www.merojobs.com/content-writer-200/
+63,Content Writer/Copywriter,ANSSoft Incorporation,"Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/sr-social-media-associate/
+64,Receptionist/Cashier,Tesla Diagnostic Clinic,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+65,Receptionist,ZTE Corporation,"Kathmandu, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+66,Front Desk Representative,Hotel Tibet Peace Inn,"Paknajol, Thamel","April 2, 2019, 11:55 p.m.",www.merojobs.com/receptionistcashier-5/
+67,Executive Assistant,Disaster Hack,"Jhamsikhel, Kathmandu","April 3, 2019, 11:55 p.m.",www.merojobs.com/receptionist-1096/
+68,CSR / Front Officer- Female,MOBEECO,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/operation-incharge-8/
+69,Production Associate,Asian Paints (Nepal),Hetauda,"April 7, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+70,Computer Operator,Nobel Academy Secondary School,"Kathmandu, Nepal","April 2, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+71,इलेट्रिकल टेक्निसियन - केही,अप्पर साेलु हाइड्राे इलेक्ट्रीक कम्पनि लि.,"Kathmandu, Nepal","April 12, 2019, 5 p.m.",www.merojobs.com/production-associate/
+72,Graphic Designer,JD Internet ventures,Kathmandu,"April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+73,Graphic Designer,KTM CTY,Kathmandu,"April 9, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+74,Motion Graphic Designer,Social Media Promotion,"Lazimpat, next to Delegation of the European Union","April 3, 2019, 11:59 p.m.",www.merojobs.com/graphic-designer-600/
+75,InDesign Artist,Makarios,"Naxal, Kathmandu","April 8, 2019, 2 p.m.",www.merojobs.com/graphic-designer-601/
+76,Content Writer,Innovate Nepal Group,"Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/motion-graphic-designer-2/
+77,Store Head (GM),Jagdamba Steels,"Simara, Bara","April 13, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+78,Procurement Officer,Jagdamba Steels,"Simara, Bara","April 13, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+79,Document and Logistic Officer,Bhaktapur NIST School,Bhaktapur,"April 5, 2019, 11:55 p.m.",www.merojobs.com/store-head-gm/
+80,Procurement Officer,A  Reputed Construction Company,Basundhara / Hattigauda,"April 4, 2019, 11:55 p.m.",www.merojobs.com/procurement-officer-82/
+81,Store Keeper,A Reputed Construction Company,Kathmandu,"April 4, 2019, 11:55 p.m.",www.merojobs.com/document-and-logistic-officer/
+82,Education Counsellor,Boomerang International Educational Services,Chitwan,"April 11, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+83,Director - Finance,Nepal CRS Company,"Head Office, Tokha- Kathmandu","April 7, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+84,Production Associate,Asian Paints (Nepal),Hetauda,"April 7, 2019, 11:55 p.m.",www.merojobs.com/education-counsellor-16/
+85,Sales Assistant,Asian Paints (Nepal),Outside Valley,"April 7, 2019, 11:55 p.m.",www.merojobs.com/director-finance-2/
+86,Road Engineer,Ashish Nirman Sewa,"Kaligandaki Corridor Road Project (Nawalparasi, Palpa)","April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+87,Sub Engineer/Overseer,Ashish Nirman Sewa,"Kaligandaki Corridor Road Project (Nawalparasi, Palpa)","April 8, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+88,Supervisor,Ashish Nirman Sewa,"Kaligandaki Corridor Road Project (Nawalparasi, Palpa)","April 8, 2019, 11:55 p.m.",www.merojobs.com/road-engineer-4/
+89,Road Engineer,Tundi Construction,nuwakot,"April 17, 2019, 11:55 p.m.",www.merojobs.com/sub-engineeroverseer/
+90,Senior Surveyor,Tundi Construction,nuwakot,"April 17, 2019, 11:55 p.m.",www.merojobs.com/supervisor-93/
+91,Preschool Teacher (Female),Ujjwal Tara School,"Pepsicola, Kathmandu, Nepal","April 5, 2019, 11:59 p.m.",www.merojobs.com/facebook/login/
+92,Primary Level Teachers,Nightingale International Secondary School,Chitwan,"April 10, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+93,Education Counsellor,Boomerang International Educational Services,Kalikot,"April 11, 2019, 11:55 p.m.",www.merojobs.com/preschool-teacher-female-6/
+94,Education Program Officer,Midas Education,Rukum Paschim,"April 9, 2019, 11:55 p.m.",www.merojobs.com/primary-level-teachers-29/
+95,Study Abroad Counsellor,Lincoln Educational Consultancy,"Dillibazar, Kathmandu","April 2, 2019, 11:55 p.m.",www.merojobs.com/education-counsellor-16/
+96,Marketing Representative,Tesla Diagnostic Clinic,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+97,Online Marketing Analyst,daraz.com.np,"Gairidhara, Kathmandu","April 4, 2019, 11:59 p.m.",www.merojobs.com/google/login/?method=oauth2
+98,Marketing Personnel,Bramha Devi Security,"Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/marketing-representative-207/
+99,Sales and Marketing Engineer,Trade Link Inc.,Kathmandu,"April 5, 2019, 11:55 p.m.",www.merojobs.com/online-marketing-analyst/
+100,Digital Executive,daraz.com.np,"Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/marketing-personnel-18/
+101,Recovery Officer,Hulas Investment Pvt. Ltd.,"Birgunj,Pokhara & Gorkha","April 5, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+102,Assistant Manager-Finance,Vianet Communications,"Bharatpur, Kawasoti, Butwal, Bhairahawa, Jeetpur, Kohalpu...","April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+103,Executive – Accounts,Flash Freight Logistics,"Damak, Birtamod, Itahari, Dharan, Biratnagar , Inaruwa, R...","April 6, 2019, 11:55 p.m.",www.merojobs.com/recovery-officer-14/
+104,Sr. Executive – Accounts,Flash Freight Logistics,"Jawalakhel, Lalitpur","April 6, 2019, 11:55 p.m.",www.merojobs.com/assistant-manager-finance-7/
+105,Internal Audit & MIS (Senior / Junior),Jagdamba Steels,"Based in HQ, Pulchowk Lalitpur","April 13, 2019, 11:55 p.m.",www.merojobs.com/sr-executive-accounts-3/
+106,Communications & Administration Officer,Action For Nepal,"Kathmandu, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+107,Sales Assistant,Asian Paints (Nepal),Outside Valley,"April 7, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+108,Resource Officer/ Business Development Officer,Golyan Group,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/communications-administration-officer/
+109,Sales and Marketing Executive- Female,MOBEECO,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/sales-assistant-49/
+110,Sales Officer,Mercantile Traders,"Kantipath, Kathamandu","April 3, 2019, 11:55 p.m.",www.merojobs.com/resource-officer-business-development-officer/
+111,IT Officer,Asian Paints (Nepal),Hetauda,"April 3, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+112,Angular Developer,Proshore Nepal,"Tinkune Marg, Kathmandu, Nepal","April 6, 2019, 11:59 p.m.",www.merojobs.com/google/login/?method=oauth2
+113,Technical Writer,Eight Square,"Kathmandu, Nepal","April 2, 2019, 11:55 p.m.",www.merojobs.com/it-officer-332/
+114,PHP Developer,KTM CTY,Kathmandu,"April 9, 2019, 11:55 p.m.",www.merojobs.com/angular-developer-11/
+115,"Team Lead (Java, Python, Javascript, NodeJs)",GSignalX Pvt. Ltd.,"Trade Tower, Thapathali, Kathmandu","April 9, 2019, 11:55 p.m.",www.merojobs.com/technical-writer-24/
+116,School Nurse,Eurokids Tinkune,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+117,Medical Officer,Nepal International Fertility & Laparoscopic Centre,Pulchowk,"April 4, 2019, 11:59 p.m.",www.merojobs.com/google/login/?method=oauth2
+118,Marketing Executive,Synergy Therapeutics,"Kathmandu , Janakpur , Pokhara, Biratnagar , Birgunj","April 6, 2019, 11:55 p.m.",www.merojobs.com/school-nurse-10/
+119,Medical Officer,Raskot Community Hospital,"Raskot-5,Kalikot, Karnali Province","April 3, 2019, 11:55 p.m.",www.merojobs.com/medical-officer-65/
+120,Hospital Manager and Project Executive,Raskot Community Hospital,"Raskot-5, Kalikot, Karnali Province","April 4, 2019, 11:55 p.m.",www.merojobs.com/marketing-executive-774/
+121,Awards Coordinator,Save the Children,Kathmandu,"April 5, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+122,Finance & Admin. Officer,Save the Children,Sarlahi,"April 5, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+123,Sr. MEL Officer,Humanity & Inclusion (HI),Country Office with field visits,"April 7, 2019, 11:55 p.m.",www.merojobs.com/awards-coordinator/
+124,Program Manager,Opportunity Village Nepal,Nepal,"April 5, 2019, 11:55 p.m.",www.merojobs.com/finance-admin-officer-11/
+125,Advocacy Officer,National Federation of the Deaf Nepal (NDFN),"Kathmandu, Nepal with frequent travel in the project  dis...","April 7, 2019, 11:55 p.m.",www.merojobs.com/sr-mel-officer/
+126,Head of Operations (HOO),Kathford College of Engineering and Management,"Lalitpur, Nepal","April 2, 2019, 11:59 p.m.",www.merojobs.com/facebook/login/
+127,School Librarian,Bhaktapur NIST School,Bhaktapur,"April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+128,Academic Head,Bhaktapur NIST School,"Bhaktapur, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/head-of-operations-hoo-2/
+129,Vice Principal,Bhaktapur NIST School,"Bhaktapur, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/school-librarian-4/
+130,"School Coordinators (Primary, Middle School & High school)",Bhaktapur NIST School,"Bhaktapur, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/academic-head-3/
+131,Assistant - IT,Everest Bank Limited,"Dharan, Dhulikhel","April 2, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+132,Waiter / Waitress,Captain Egg,Hadigau,"April 12, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+133,Chef / Head Chef,Himalayan Java Coffee,"Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+134,Sales & Marketing Team Member,The Nana Hotels,"Hadigau, Kathmandu","April 13, 2019, 11:55 a.m.",www.merojobs.com/waiter-waitress-22/
+135,Executive Chef,Ai-La Restaurant Lounge,"Kumaripati, Lalitpur","April 5, 2019, 11:55 p.m.",www.merojobs.com/chef-head-chef/
+136,Restaurant Manager,Ai-La Restaurant Lounge,"Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/sales-marketing-team-member/
+137,Content Writer,Hopnepal.com,"Maitidevi, Kathmandu","April 6, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+138,Content Writers / Data Analyst (Evening Shift),Datalytics,"Bhatbhateni, Naxal","April 7, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+139,Content / Article Writer,Broadway Infosys Nepal,"Shriganesh Marg, Subidhanagar, Tinkune, Kathmandu 44600, ...","April 3, 2019, 11:55 p.m.",www.merojobs.com/writer-3/
+140,Customer Support Interns - Few,Max Digital TV,"Kathmandu, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/content-writers-data-analyst/
+141,Content Writer,Global Entrepreneurship Bootcamp,"Anamnagar, Kathmandu","April 6, 2019, 11:55 p.m.",www.merojobs.com/content-article-writer-13/
+142,Executive Secretary,A Conglomerate Company,"Kathmandu, Nepal","April 2, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+143,School Front Desk Officer,Bhaktapur NIST School,Bhaktapur,"April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+144,Executive Secretary,Gurkhas Finance Limited,"Dillibazar, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/executive-secretary-98/
+145,Office Secretary,Osho Recruiting Agency,"Purano Baneshwor, Kathmandu","April 4, 2019, 11:59 p.m.",www.merojobs.com/school-front-desk-officer/
+146,Receptionist,National School of Sciences,"Kathmandu, Nepal","April 2, 2019, 11:59 p.m.",www.merojobs.com/executive-secretary-100/
+147,Quality Control Manager,S.R. Drug Laboratories Pvt. Ltd.,"Tripureshwor, Kathmandu","April 6, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+148,Quality Assurance Manager,S.R. Drug Laboratories Pvt. Ltd.,"Tripureshwor, Kathmandu","April 6, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+149,Sr. Maintenance Manager - Execution,Airtech Industries Pvt. Ltd.,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/quality-control-manager-18/
+150,CCU- Connectivity Care Unit,Bajaj 2 Wheelers,"Maharajgunj, Kathmandu","April 3, 2019, 5 p.m.",www.merojobs.com/quality-assurance-manager-8/
+151,हेड मेकानिक्स,Bajaj 2 Wheelers,"Maharajgunj, Kathmandu","April 3, 2019, 5 p.m.",www.merojobs.com/sr-maintenance-manager-execution-2/
+152,Graphic Designer,Innovate Nepal Group,"Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+153,Graphic Designer,Kreativ Nepa,"Babarmahal, Near Rosebud School","April 6, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+154,Graphic Designer,MOBEECO,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/graphic-designer-602/
+155,Graphics Designer,Amplecube,Kathmandu,"April 4, 2019, 11:55 p.m.",www.merojobs.com/graphic-designer-603/
+156,IT & Website Designer,Fishtail Tours & Travels,"Baluwatar, Kathmandu, Central Development Region, Nepal","April 2, 2019, 6:55 p.m.",www.merojobs.com/graphic-designer-2d-3d-posters/
+157,Storekeeper- Few,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+158,Trainee Assistant,Siddhartha Bank,Inside and Outside Valley,"April 15, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+159,Assistant -Anesthesia,Tilganga Institute of Opthalmology,Kathmandu,"April 13, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+160,Store Manager/ Cashier,Pioneer Trade Concern,"Kathmandu, Nepal","April 14, 2019, 11:55 p.m.",www.merojobs.com/trainee-assistant-43/
+161,Internal Audit & MIS (Senior / Junior),Jagdamba Steels,"Naxal, Kathmandu","April 13, 2019, 11:55 p.m.",www.merojobs.com/assistant-anesthesia/
+162,Store Head (GM),Jagdamba Steels,"Simara, Bara","April 13, 2019, 11:55 p.m.",www.merojobs.com/store-manager-cashier-2/
+163,Civil Engineer,Jagadamba International,"Chabahil, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+164,Electrical Engineer,Jagadamba International,"Mitrapark, Chabahil","April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+165,IT Engineer,Jagadamba International,Kathmandu,"April 5, 2019, 11:55 p.m.",www.merojobs.com/civil-engineer-353/
+166,Site Supervisor,A Reputed Interior Based Company,Basundhara,"April 8, 2019, 11:55 p.m.",www.merojobs.com/electrical-engineer-95/
+167,Assistant Counsellor,Lincoln Educational Consultancy,"Dillibazar, Kathmandu","April 2, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+168,School Leaders,Collaborative Schools Network,Budhanilkantha Municipality,"April 4, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+169,"Primary Level Teachers (English, Science and Computer) - Female",Rosebud School,"Kathmandu, Nepal","April 9, 2019, 11:59 p.m.",www.merojobs.com/assistant-counsellor/
+170,Primary Level Part Time Teacher (Nepali) - Female,Rosebud School,"Kathmandu, Nepal","April 9, 2019, 11:59 p.m.",www.merojobs.com/school-leaders/
+171,Primary level Grade Teachers (Female),Rosebud School,"Kathmandu, Nepal","April 9, 2019, 11:59 p.m.",www.merojobs.com/primary-level-teachers-24/
+172,Consumer Marketing Assistant Manager,Sastodeal,"Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+173,Marketing Executive,Echoes Global Education,"City Center, Kamalpokhari, Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+174,Business Development Executive- Female,MOBEECO,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/consumer-marketing-assistant-manager/
+175,Marketing Executive,Shindraa Solutions,"Dallu, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/marketing-executive-782/
+176,Marketing Representative,Net Payment Solution,"Panipokhari, Kathmandu","April 8, 2019, 11:55 p.m.",www.merojobs.com/business-development-executive-female-4/
+177,Accountant,The Nana Hotels,"Hadigau, Kathmandu","April 4, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+178,Senior Accountant,Key Foods International,"Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+179,Finance Officer,Balaji Technology,"Corporate office, Kupondole-10, Lalitpur","April 5, 2019, 11:55 p.m.",www.merojobs.com/accountant-1343/
+180,Accountant,Sun Business Nepal,"Boudha, Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/senior-accountant-183/
+181,Finance Officer,Nepal Disabled Women Association,"Kalopul, Kathmandu","April 5, 2019, 11:59 p.m.",www.merojobs.com/finance-officer-159/
+182,Office Manager cum Main Counselor,An Education Consultancy,"Kathmandu, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+183,Sales and Marketing Officer( Female),Gene Liberty Nepal,"Putalisadak, Kathmandu, Central Development Region, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+184,Sales and Marketing Officer,The Regal Inc.,"Kathmandu, Nepal","April 10, 2019, 11:55 p.m.",www.merojobs.com/office-manager-cum-main-counselor/
+185,Merchandiser,Tricot Industries,"Biratnagar, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/sales-and-marketing-officer-female-3/
+186,Salesmen,Kamaru Trading Pvt. Ltd.,durbarmagh,"April 5, 2019, 11:55 p.m.",www.merojobs.com/sales-and-marketing-officer-111/
+187,Senior Full-stack Software Engineer,GSignalX Pvt. Ltd.,"Trade Tower, Thapathali, Kathmandu","April 9, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+188,Senior Web & Mobile Developer (Front-end and Back-end),GSignalX Pvt. Ltd.,"Trade Tower, Thapathali, Kathmandu","April 9, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+189,PHP/Laravel Developer,Initiative,"Pulchowk, Beside Global IME Bank","April 3, 2019, 11:55 p.m.",www.merojobs.com/senior-full-stack-software-engineer-3/
+190,DevOps Engineer (System Team),COTIVITI NEPAL,"Kathmandu,Nepal","April 12, 2019, 11:55 p.m.",www.merojobs.com/senior-web-mobile-developer-front-end-and-back-end/
+191,Senior Oracle – PL/SQL DEVELOPER,COTIVITI NEPAL,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/phplaravel-developer-3/
+192,Staff Nurse,Raskot Community Hospital,"Raskot-5,Kalikot, Karnali Province","April 4, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+193,Radiographer,Raskot Community Hospital,"Raskot-5,Kalikot, Karnali Province","April 4, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+194,Health Assistant,Raskot Community Hospital,"Raskot-5,Kalikot, Karnali Province","April 4, 2019, 11:55 p.m.",www.merojobs.com/staff-nurse-108/
+195,Expert Consultant (Moderator/Facilitator) for Federalism Learning Summit – 2019,CAMRIS International,Various Discricts,"April 6, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+196,Deafblind Educator,Society of Deafblind Parents,"Kathmandu, Nepal with frequent visits to the families of ...","April 7, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+197,Supporter/ Caretaker,Society of Deafblind Parents,"Kathmandu, Nepal with frequent visits to the families of ...","April 7, 2019, 11:55 p.m.",www.merojobs.com/expert-consultant-moderatorfacilitator-for-federalism-learning-summit-2019/
+198,Project Coordinator,Society of Deafblind Parents,"Kathmandu, Nepal with frequent visits to the families of ...","April 7, 2019, 11:55 p.m.",www.merojobs.com/deafblind-educator/
+199,ECA & CCA In-Charges,Bhaktapur NIST School,Bhaktapur,"April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+200,Operation Manager (Male),ARC Architects And Engineers,"Kupondole, lalitpur","April 10, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+201,Pre- Primary Academic Coordinator (Female),Eurokids Tinkune,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/eca-cca-in-charges/
+202,Customer Development - MIS,A Multinational Company,"Kathmandu, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/operation-manager-81/
+203,Admissions Officer,An Education Institution,"Kathmandu, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/pre-primary-academic-coordinator/
+204,Officer,Century Commercial Bank Limited,"Salleri, Phidim, Bhojpur, Diktel, Khurkot, Singati, Jiri,...","April 2, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+205,Assistant Officer,Century Commercial Bank Limited,"Okhaldhunga, Daman, Hattisude, Bajrabarahi, Bhimphedi, Pa...","April 2, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+206,Supervisor,Century Commercial Bank Limited,"Pyauli- Bhojpur, Lamidanda- Khotang, Bhumikasthan- Arghak...","April 2, 2019, 5 p.m.",www.merojobs.com/officer-62/
+207,Deposit Marketing Officer,Century Commercial Bank Limited,"Kathmandu, Nepal","April 2, 2019, 5 p.m.",www.merojobs.com/assistant-officer-13/
+208,Cafe Manager - Female,Asia Woman Bridge Nepal (AWBN),"Kumaripati, Lalitpur","April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+209,Sales Executive,Laser Travel and Tours P. LTD,"Bhaisepati, Lalitpur, Central Development Region, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+210,Tour Officer,Plan Holidays Travels & Tours,"Bhagabatimarg, Thamel  , Kathmandu  Nepal","April 11, 2019, 11:59 p.m.",www.merojobs.com/cafe-manager-female/
+211,Supervisor,The lapsi tree,Nagarkot,"April 2, 2019, 11:55 p.m.",www.merojobs.com/sales-executive-452/
+212,Chef,The lapsi tree,Nagarkot,"April 2, 2019, 11:55 p.m.",www.merojobs.com/tour-officer-55/
+213,Editorial Interns,The Kathmandu Post,"Pokhara, Biratnagar, Bhairahawa","April 3, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+214,Video Editor,A Reputed IT Company,"Koteshwor, Kathmandu","April 5, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+215,Front Desk Officer,Dharma Adventures,"Kathmandu, Nepal","April 11, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+216,Receptionist,Wilson Academy,"Bafal Marg, Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+217,Front Desk / Receptionist,Raman General,Lalitpur,"April 12, 2019, 11:55 p.m.",www.merojobs.com/front-desk-officer-558/
+218,Customer Service Representative (CSR),Saturn Outsource,"Kamalpokhari, Kathmandu","April 11, 2019, 11:55 p.m.",www.merojobs.com/receptionist-1097/
+219,Front Desk Officer (FDO),Tassi Technologies Incorporation,Baluwatar,"April 3, 2019, 11:55 p.m.",www.merojobs.com/front-deskreceptionist-4/
+220,एसिस्टेण्ट मेकानिक्स,Bajaj 2 Wheelers,"Maharajgunj, Kathmandu","April 3, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+221,Production Manager,Amrapali Beverage Pvt. Ltd.,"Gaushala, Mahottari","April 12, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+222,Production Incharge,Amrapali Beverage Pvt. Ltd.,"Gaushala, Mahottari","April 12, 2019, 5 p.m.",www.merojobs.com/-1676/
+223,Process Operator,Amrapali Beverage Pvt. Ltd.,"Gaushala, Mahottari","April 12, 2019, 5 p.m.",www.merojobs.com/production-manager-59/
+224,QC Incharge,Amrapali Beverage Pvt. Ltd.,"Gaushala, Mahottari","April 12, 2019, 5 p.m.",www.merojobs.com/production-incharge-2/
+225,Graphics Designer,Socheko.com,Kathmandu,"April 7, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+226,Wordpress Developer,Curl Labs,Thamel,"April 10, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+227,Graphic Designer,Curl Labs,Thamel,"April 10, 2019, 11:55 p.m.",www.merojobs.com/graphics-designer-76/
+228,Photographer and Graphic Designer,Bajrayogini Pashmina Pvt Ltd,"Tahachal, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/graphic-designer-604/
+229,प्राविधिक प्रहरी जवान,प्रहरी प्रधान कार्यालय,"Rajbiraj-6, Saptari","April 17, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+230,Security Guard- Few,Chhinnamasta Educational Academy & Medical College,"Kathmandu, Nepal","April 20, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+231,Hostel Warden,Nobel Academy Secondary School,"Kathmandu, Nepal","April 2, 2019, 5 p.m.",www.merojobs.com/-1578/
+232,Hostel Warden (Female),Nepal Model School,"Sukedhara, Kathmandu","April 5, 2019, 5 p.m.",www.merojobs.com/security-guard-few-3/
+233,Procurement Officer,Jagdamba Steels,"Simara, Bara","April 13, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+234,Communications & Administration Officer,Action For Nepal,"Kathmandu, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+235,Social Media Manager,Freelancer Company,"2nd Floor, House No. 384,, Buth Marg, Dhungedhara Chowk,,...","April 13, 2019, 11:55 p.m.",www.merojobs.com/procurement-officer-82/
+236,Teaching Associate,BeeCreative,"Gyaneshwor, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/communications-administration-officer/
+237,Preschool Teacher (Female),Ujjwal Tara School,"Pepsicola, Kathmandu, Nepal","April 5, 2019, 11:59 p.m.",www.merojobs.com/social-media-manager-17/
+238,Sub Engineer - Few,Small Irrigation Programme,"Kathmandu, Nepal","April 2, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+239,इलेट्रिकल सुपरभाइजर - केही,अप्पर साेलु हाइड्राे इलेक्ट्रीक कम्पनि लि.,"Pokhara, Nepal","April 12, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+240,मेकानिकल सुपरभाइजर - केही,अप्पर साेलु हाइड्राे इलेक्ट्रीक कम्पनि लि.,"Kathmandu, Nepal","April 12, 2019, 5 p.m.",www.merojobs.com/sub-engineer-few/
+241,Grade Teachers,Bhaktapur NIST School,"Bhaktapur, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+242,School Counselor,Bhaktapur NIST School,Bhaktapur,"April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+243,Subject Teachers for all levels,Bhaktapur NIST School,Bhaktapur,"April 5, 2019, 11:55 p.m.",www.merojobs.com/grade-teachers-41/
+244,Nursery Teacher (Female),Eurokids Tinkune,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/school-counselor-2/
+245,LKG Teacher (Female),Eurokids Tinkune,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/subject-teachers-for-all-levels/
+246,International Marketing Officer,Nova International Pvt Ltd,Kathmandu,"April 2, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+247,Marketing Officer,Alfa Beta Institute,"Buddhanagar, Kathmandu, Central Development Region, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+248,Junior Digital Marketing,New IT Venture,"Naxal, Kathmandu","April 10, 2019, 11:59 p.m.",www.merojobs.com/international-marketing-officer-3/
+249,Business Development Officer,Nepal Clearing House,"Kathmandu, Nepal","April 10, 2019, 11:55 p.m.",www.merojobs.com/marketing-officer-821/
+250,Sales and Market Representative,Pokhara Himalayan Meats,"Pokhara, Zero KM","April 4, 2019, 11:55 p.m.",www.merojobs.com/junior-digital-marketing/
+251,Admin and Finance Assistant,CAMRIS International,Kathmandu Nepal,"April 10, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+252,"Officer - Account, Admin & Corporate Affairs",CEDB Hydropower Development Company Limited,"Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+253,Account Officer (Field Based),MiDas Technologies,"Kathmandu, Nepal","April 15, 2019, 11:55 p.m.",www.merojobs.com/admin-and-finance-assistant-8/
+254,Junior Loan Officer,Star Saving and Credit Co-operative,"Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/officer-account-admin-corporate-affairs-7/
+255,Area Sales Manager,Hulas Foods,Pokhara/ Mechi,"April 4, 2019, 6:50 p.m.",www.merojobs.com/facebook/login/
+256,Correspondence Executive (French Market),Dharma Adventures,"Kathmandu, Nepal","April 6, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+257,Marketing Manager,Socheko.com,Kathmandu,"April 7, 2019, 11:55 p.m.",www.merojobs.com/area-sales-manager-142/
+258,Sales Engineer,RB Merchant Pvt. Ltd.,Mid-Baneshwor,"April 8, 2019, 11:55 p.m.",www.merojobs.com/assistant-to-account-manager-french-market/
+259,Associate Director – Sales & Marketing/Director - Sales,Hotel Annapurna,"Kathmandu, Nepal","April 6, 2019, 5 p.m.",www.merojobs.com/marketing-manager-476/
+260,Oracle – PL/SQL DEVELOPER,COTIVITI NEPAL,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+261,JAVA Developer,COTIVITI NEPAL,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+262,Business Analyst,COTIVITI NEPAL,Kathmandu Nepal,"April 13, 2019, 11:55 p.m.",www.merojobs.com/oracle-plsql-developer-2/
+263,Frontend and Hybrid App Developer,ITONICS Nepal,"Kathmandu, Nepal","April 13, 2019, 11:55 p.m.",www.merojobs.com/java-developer-83/
+264,कन्सल्टेन्ट अायुर्वेद विज्ञ - केही,सामाजिक विकास मन्त्रालय,"Rajbiraj-6, Saptari","April 4, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+265,Medical Superintendent,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+266,Physician- Few,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/-1657/
+267,OBS/Gyno- Few,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/medical-superintendent-2/
+268,"Governance/PFM Expert (National Team Leader), Midterm Evaluation of USIAD/Nepal’s PFMSP",CAMRIS International,Kathmandu,"April 17, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+269,"GESI/PFM expert (National Team Member), Midterm Evaluation of USAID/Nepal’s PFMSP",CAMRIS International,Kathmandu,"April 17, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+270,Field Researcher Consultants,CAMRIS International,"Kathmandu, Nepal","April 15, 2019, 11:55 p.m.",www.merojobs.com/gesipfm-expert-national-team-member-midterm-evaluation-of-usaidnepals-pfmsp/
+271,Education Program Specialist-1 Position,Plan International Nepal,"Based in Karnali Field Office, Jumla","April 16, 2019, 5 p.m.",www.merojobs.com/gesipfm-expert-national-team-member-midterm-evaluation-of-usaidnepals-pfmsp-2/
+272,Program Coordinator (Girls Agency) -2 Positions,Plan International Nepal,Based in Nepalgunj Field Office and Hetauda Field Office,"April 16, 2019, 5 p.m.",www.merojobs.com/field-researcher-consultants/
+273,Branch Incharge,Star Saving and Credit Co-operative,"Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+274,Supervisor cum Manager,The Regal Inc.,"Kathmandu, Nepal","April 10, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+275,Executive Secretary and Administrative Assistant,Rukmani International,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/branch-incharge-16/
+276,Student Services Manager,An Education Institution,"Kathmandu, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/supervisor-cum-manager/
+277,Office Boy cum Runner,A Reputed Construction Company,Kathmandu,"April 4, 2019, 11:55 p.m.",www.merojobs.com/executive-secretary-and-administrative-assistant-2/
+278,Housekeeping Trainer,Vision Technical Training Institute,"Kathmandu, Nepal","April 2, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+279,Recruitment Officer,merojob,Kathmandu,"April 3, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+280,Background Verification Executive,Real Solutions,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/housekeeping-trainer/
+281,Business Development Executive,J & T Associates,"Kathmandu, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/recruitment-officer-20/
+282,HR & Administration Officer,Reliance Paper Mills,"Kathmandu, Nepal","April 3, 2019, 11:55 p.m.",www.merojobs.com/background-verification/
+283,Yoga Instructor,The lapsi tree,"Kathmandu, Nepal","April 2, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+284,Manager,The lapsi tree,"Rajbiraj-6, Saptari","April 2, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+285,Chef,Rock N Roll Food House,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/yoga-instructor-3/
+286,Junior Research Analyst,A Multinational Company,"Kathmandu, Central Development Region, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+287,Research Officer,Bird Conservation Nepal,"Kathmandu, Nepal (with frequent field visit)","April 25, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+288,Receptionist- Few,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+289,Receptionist,Nobel Academy Secondary School,"Kathmandu, Nepal","April 2, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+290,Front Office Manager,Aagantuk Resort Pvt.Ltd.,"Kavre, Nepal","April 4, 2019, 5 p.m.",www.merojobs.com/receptionist-few-7/
+291,Front Office Manager,Grand Hotel Pvt. Ltd.,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/receptionist-1091/
+292,Front Desk Assistant,American Language Center,"Naxal, Kathmandu","April 3, 2019, 5 p.m.",www.merojobs.com/front-office-manager-30/
+293,Tetra pak Operator,Amrapali Beverage Pvt. Ltd.,"Gaushala, Mahottari","April 12, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+294,Senior Quality Control Officer,Curex Pharmaceuticals Pvt. LTd.,"Kathmandu, Nepal","April 6, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+295,Quality Assurance Officer,Curex Pharmaceuticals Pvt. LTd.,"Kathmandu, Nepal","April 6, 2019, 5 p.m.",www.merojobs.com/tetra-pak-operator/
+296,Architect / Interior Designer,Studio MRAA,"Panipokhari, Kathamandu","April 6, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+297,Draft Person,A Reputed Construction Company,Kathmandu,"April 4, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+298,Hostel (Couple/Ladies),Constellation High School,"Dhumbarahi, Kathmandu","April 2, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+299,Manager- Information Security,Laxmi Bank,Nepal,"April 5, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+300,Officer- Information Security,Laxmi Bank,Nepal,"April 5, 2019, 5 p.m.",www.merojobs.com/hostel-coupleladies/
+301,Hostel Warden (Female),Occidental Public School,"Anamnagar, Kathmandu","April 5, 2019, 2 p.m.",www.merojobs.com/manager-information-security-2/
+302,Hostel Warden(1 Male/ 1 Female),Guheshwari Boarding High School,"Bansbari, Kathmandu","April 7, 2019, 5 p.m.",www.merojobs.com/officer-information-security-2/
+303,Creative Web Designer,Verisk Nepal,"Kathmandu, Nepal","April 13, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+304,Business Analyst,COTIVITI NEPAL,Nepalgunj,"April 13, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+305,Sales Executive,Hilltake Industries,Birgunj,"April 10, 2019, 10 p.m.",www.merojobs.com/creative-web-designer-22/
+306,Frontend and Hybrid App Developer,ITONICS Nepal,Butwal,"April 13, 2019, 11:55 p.m.",www.merojobs.com/business-analyst-26/
+307,Frontend Developer,ITONICS Nepal,Pokhara,"April 13, 2019, 11:55 p.m.",www.merojobs.com/sales-executive-454/
+308,Sr. Mechanical Engineer (Sales & Marketing),Airtech Industries Pvt. Ltd.,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+309,Project Managers - Few,ANDRITZ,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+310,Installation & Commissioning Coordinators - Few,ANDRITZ,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/sr-mechanical-engineer-sales-marketing/
+311,UKG Teacher (Female),Eurokids Tinkune,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+312,Pre-Primary Assistant Teacher (Female),Eurokids Tinkune,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+313,Grade Two Teachers (Female),Euro School,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/ukg-teacher-2/
+314,Primary Assistant Teacher (Female),Euro School,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/pre-primary-assistant-teacher-4/
+315,Grade One Teacher (Female),Euro School,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/grade-two-teachers-female/
+316,Marketing Officer,BusSewa,Kathmandu,"April 4, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+317,Marketing Executive,Jaguar Investments,Kuleshwor,"April 10, 2019, 10 a.m.",www.merojobs.com/google/login/?method=oauth2
+318,Marketing Officer,eSewa Fonepay,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/marketing-officer-822/
+319,Marketing Manager,IMS Investment Management Services,"Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/marketing-executive-780/
+320,Digital Marketing Expert,ANSSoft Incorporation,"Kathmandu, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/marketing-officer-824/
+321,Recovery Audit Trainee,Flextecs Nepal,"Kathmandu, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+322,Accounts Assistant,A Reputed Construction Company,Kathmandu,"April 5, 2019, 6 p.m.",www.merojobs.com/google/login/?method=oauth2
+323,Site Accountant,Raman Construction,Tamsariya WSP- Nawalparashi,"April 3, 2019, midnight",www.merojobs.com/recovery-audit-trainee-19/
+324,Account Officer,Laser Travel and Tours P. LTD,"Sainbu, Bhainsepatie, Lalitpur - Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/store-keeper-131/
+325,Accountant - Female,Asia Woman Bridge Nepal (AWBN),"Kumaripati, Lalitpur","April 5, 2019, 11:55 p.m.",www.merojobs.com/site-accountant-34/
+326,Sales and Marketing Manager,Aagantuk Resort Pvt.Ltd.,"Kavre, Nepal","April 4, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+327,Director of Sales & Marketing,Grand Hotel Pvt. Ltd.,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+328,Sales Manager,FOCUSONE Payment Solutions Pvt. Ltd.,"Kathmandu, Nepal","April 13, 2019, 5 p.m.",www.merojobs.com/sales-and-marketing-manager-47/
+329,Sales Person,FOCUSONE Payment Solutions Pvt. Ltd.,"Kathmandu, Nepal","April 13, 2019, 5 p.m.",www.merojobs.com/director-of-sales-marketing-7/
+330,Area Sales Manager,Power and Lighting Solutions Pvt. Ltd.,"Kathmandu, Nepal","April 11, 2019, 5 p.m.",www.merojobs.com/sales-manager-213/
+331,Creative Web Designer,Verisk Nepal,"Kathmandu, Nepal","April 13, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+332,Senior Quality Assurance Engineer,UBA Solutions,"Kathmandu, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+333,Laravel Developer,BMP Infology,"Baluwatar, Kathamndu","April 2, 2019, 11:55 p.m.",www.merojobs.com/creative-web-designer-22/
+334,SEO / SEM Expert,BMP Infology,"Balwatar, Kathmandu","April 2, 2019, 11:55 p.m.",www.merojobs.com/senior-quality-assurance-engineer-5/
+335,Wordpress Developer,Diagonal Technologies,Work from Home,"April 2, 2019, 11:59 p.m.",www.merojobs.com/laravel-developer-27/
+336,Pediatrics- Few,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+337,Neuron Surgeon- Few,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+338,Radiologist- Few,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/pediatrics-few/
+339,MDGP,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/neuron-surgeon-few/
+340,MO- Few,Chhinnamasta Educational Academy & Medical College,"Rajbiraj-6, Saptari","April 20, 2019, 5 p.m.",www.merojobs.com/radiologist-few/
+341,Program Coordinator (Early Childhood Development)-1 Position,Plan International Nepal,Based in Nepalgunj Field Office,"April 16, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+342,Project Coordinator for MCA-II Project-1 Position,Plan International Nepal,Country Office,"April 16, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+343,Protection Coordinator-1 Position,Plan International Nepal,Based in Nepalgunj Field Office,"April 16, 2019, 5 p.m.",www.merojobs.com/program-coordinator-ecd-1-position/
+344,Project Manager,Resource Management and Rural Empowerment Center (REMREC),"Kathmandu, Nepal","April 4, 2019, 11:55 p.m.",www.merojobs.com/project-coordinator-1-position-5/
+345,Correspondence Executive,Dharma Adventures,"Kathmandu, Nepal","April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+346,Customer Support and Operation Officer,Paypoint Nepal,"Naxal, Kathmandu, Central Development Region, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+347,College Administrator,National School of Sciences,Khusibu,"April 2, 2019, 11:59 p.m.",www.merojobs.com/correspondence-executive-21/
+348,Administrator,Wilson Academy,Patan,"April 5, 2019, 11:55 p.m.",www.merojobs.com/customer-support-and-operation-officer-8/
+349,प्राचार्य,गण्डकी बाेर्डिङ स्कुल,Lainchour,"April 5, 2019, 4 p.m.",www.merojobs.com/college-administrator-2/
+350,HR and Admin Officer,Delta Tech,Biratnagar,"April 9, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+351,HR Manager,Nobel Academy Secondary School,"Kathmandu, Nepal","April 2, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+352,HR Officer (Male),A Well Reputed Company,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/hr-and-admin/
+353,Executive House Keeper,Grand Hotel Pvt. Ltd.,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+354,F & B Executive,Grand Hotel Pvt. Ltd.,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+355,Swimming Pool Attendant,Grand Hotel Pvt. Ltd.,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/executive-house-keeper-6/
+356,Head Cook (School Canteen),KMC School,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/f-b-executive-6/
+357,Computer Teacher (Grade 6-8),Brihaspati Vidyasadan,"Kathmandu, Nepal","April 2, 2019, 5 p.m.",www.merojobs.com/swimming-pool-attendant/
+358,Junior Research Analyst,A Multinational Company,"Kathmandu, Central Development Region, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+359,Research Officer,Bird Conservation Nepal,"Kathmandu, Nepal (with frequent field visit)","April 25, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+360,Receptionist,S.R. Drug Laboratories Pvt. Ltd.,"Tripureshwor, Kathmandu","April 6, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+361,Front Office/Secretarial,ANDRITZ,"Kathmandu, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+362,रिशेप्सनिष्ट (Female),लिधंसा बचत तथा ऋण सहकारी संस्था लि.,"Chabahil, Kathmandu","April 3, 2019, 5 p.m.",www.merojobs.com/receptionist-1095/
+363,Executive Secretary- Female,Paradise International P. Ltd.,"Kupondole, Lalitpur, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/front-officesecretarial/
+364,रिसेप्सनिष्ट,एक प्रतिष्ठित सहकारी,"Kalanki, Kathmandu","April 4, 2019, 5 p.m.",www.merojobs.com/female-8/
+365,Architect / Interior Designer,Studio MRAA,"Panipokhari, Kathamandu","April 6, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+366,Draft Person,A Reputed Construction Company,Kathmandu,"April 4, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+367,Security Guard,Guheshwari Boarding High School,"Bansbari, Kathmandu","April 7, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+368,Secondary Level Teachers,Nightingale International Secondary School,"Kathmandu, Nepal","April 8, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+369,Counselor,Maple International Education,"Putalisadak, Kathmandu","April 10, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+370,Operation Manager,Times Remit,Kathmandu,"April 8, 2019, 11:55 p.m.",www.merojobs.com/secondary-level-teachers-30/
+371,Sr. Executive – Accounts,Flash Freight Logistics,"Based in HQ, Pulchowk Lalitpur","April 6, 2019, 11:55 p.m.",www.merojobs.com/counselor-281/
+372,Executive – Accounts,Flash Freight Logistics,"Based in HQ, Pulchowk Lalitpur","April 6, 2019, 11:55 p.m.",www.merojobs.com/operation-manager-82/
+373,Primary Academic Coordinator (Female),Euro School,"Tinkune, Kathmandu","April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+374,Counselor (Europe),Wide Range International,"Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+375,Counselor (Australia/New zealand),Wide Range International,"Kathmandu, Nepal","April 7, 2019, 11:55 p.m.",www.merojobs.com/primary-academic-coordinator-2/
+376,In charge (Primary Level),Aksharaa School,"Pepsicola, Kandaghari, Kathmandu","April 3, 2019, 11:59 p.m.",www.merojobs.com/counselor-europe-2/
+377,English Teacher,Aksharaa School,"Pepsicola, Kandaghari, Kathmandu","April 3, 2019, 11:59 p.m.",www.merojobs.com/counselor-australianew-zealand/
+378,Sales/Marketing Manager,MiDas Technologies,Kathmandu,"April 15, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+379,Customer Counselor (Written English),Yodha,New Baneshwor,"April 20, 2019, 11:59 p.m.",www.merojobs.com/google/login/?method=oauth2
+380,Marketing Executive,An Education Institution,"Kathmandu, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/salesmarketing-officer-5/
+381,Marketing Officer,An Education Institution,"Kathmandu, Nepal","April 9, 2019, 11:55 p.m.",www.merojobs.com/customer-counselor-written-english-20/
+382,Business Development Officer,A Reputed Construction Company,Basundhara,"April 4, 2019, 11:55 p.m.",www.merojobs.com/marketing-executive-784/
+383,Accountant,Wilson Academy,Basundhara,"April 5, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/
+384,Senior Accountant,A Reputed Construction Company,Basundhara,"April 4, 2019, 11:55 p.m.",www.merojobs.com/google/login/?method=oauth2
+385,Accountant,A Reputed Construction Company,"Kathmandu, Nepal","April 4, 2019, 11:55 p.m.",www.merojobs.com/accountant-1354/
+386,Management Trainees – Few,Max Digital TV,"Kathmandu, Nepal","April 6, 2019, 11:55 p.m.",www.merojobs.com/senior-accountant-184/
+387,Sales Man/Girl,Power and Lighting Solutions Pvt. Ltd.,"Kathmandu, Nepal","April 11, 2019, 5 p.m.",www.merojobs.com/facebook/login/
+388,Tour Sales Executive,Holiday Company,"Kupondole, Lalitpur, Nepal","April 3, 2019, 5 p.m.",www.merojobs.com/google/login/?method=oauth2
+389,Public Relation Officer - PRO,Paradise International P. Ltd.,Nepal,"April 3, 2019, 5 p.m.",www.merojobs.com/sales-mangirl/
+390,Sales Executive,Siddhartha Sunrise Industries Pvt. Ltd.,"Itahari, Birgunj, Butwal, Nepalgunj & Pokhara","April 5, 2019, 5 p.m.",www.merojobs.com/tour-sales-executive/
+391,Quality Analyst,EBPearls,Kathmandu,"April 11, 2019, 11:55 p.m.",www.merojobs.com/facebook/login/

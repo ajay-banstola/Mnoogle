@@ -12,8 +12,6 @@
 <div class="container-fluid">
 
 
-
-
       <div class="row" style="padding-top: 4%; padding-left: 6%">
 
         <div class="col-sm-8 blog-main">
@@ -26,59 +24,28 @@
 					<p style= "padding-left: 10px" ><small><em><b> {{jobs_count}} Results found:</b></em> </small></p>
 					{%endif%}
 
-                      <div class="col-md-8">
+                      <div class="col-lg-12">
                         {% for job in jobs_list %}
 
                             <div class="list-group">
-                                <h1 class="text-left" style="margin: 0px">
-                                    <a href="{{ job.get_absolute_url }}" style="font-size:large; color: #0033B3"><b>{{ job.Title }}</b></a>
-                                </h1>
-                                <p class ="text-left"><a href="{{job.get_absolute_url}}" style="font-size: 14px; color: #1e7e34"><em>{{job.Link}}</em></a></p>
-                                <h3 class ="text-left"><a href="{{ job.get_absolute_url }}" style="font-size:medium; margin: 0px; color: #0033B3"><b>{{ job.Link }}</b></a></h3>
-								<p class ="text-left" style="padding-bottom: 0px;;" style="font-size:medium; margin: 0px" >{{job.description}}</p>
-								<a class= "text-left" href="{{ job.get_absolute_url }}">
-                               <!-- <img src="{% if job.image %} {{ job.image.url }} {% else %} {% static 'img/default.jpg' %} {% endif %}" alt="..." href = "account:product_detail" style="height: 80px; width: auto"> -->
-                            </a><br>
-														{% comment %} {% if job.number.rating >= 4.5%}
-													<a class ="text-left" href="#" style="font-size:small" data-toggle="tooltip" data-placement="right" title="The job is platinum rated: {{job.number.rating}}/5"><b> Rating:{{job.number.rating}}/5</b></a>
-													{% elif job.number.rating < 4.5 and job.number.rating >= 3.5 %}
-													<a class ="text-left" href="#" style="font-size:small" data-toggle="tooltip" data-placement="right" title="The job is gold rated: {{job.number.rating}}/5"><b> Rating:{{job.number.rating}}/5</b></a>
-													{%else%}
-													<a class ="text-left" href="#"  style="font-size:small" data-toggle="tooltip" data-placement="right" title="The job is rated: {{job.number.rating}}/5"><b> Rating:{{job.number.rating}}/5</b></a>
-													{%endif%} {% endcomment %}
-
-													{% comment %} <a class = "space"  style="font-size:small" data-toggle="tooltip" data-placement="right" title="max price :{{job.price}}"><b> $ {{ job.price }}</b></a> {% endcomment %}
-
+                                <h2 class="text-left" style="margin: 0px">
+                                    <b>{{ job.Job }}</b>
+                                </h2>  
+																<h3 class="text-left" style="margin: 0px">
+                                    <b>{{ job.Company }}</b>
+                                </h3>
+                                <p class ="text-left"><a href={{job.URL}} style="font-size: 14px; color: #1e7e34"><em>{{job.URL}}</em></a></p>
+																<h6 class ="text-left">{{ job.Address }}</h6>
+                                <h5 class ="text-left"><b>Deadline:</b>{{ job.Deadline }}</h5>
 								{% if request.user.is_authenticated %}
-								<a href="#" data-toggle="modal" data-target="#myModal" class= "space" style="font-size:small"><b> ✉ Message <!--$ {{ job.message }}--></b></a>
-								  <div class="modal fade" id="myModal" role="dialog">
-									<div class="modal-dialog modal-lg">
-									  <div class="modal-content">
-										<div class="modal-header">
-										  <button type="button" class="close" data-dismiss="modal" >&times;</button>
-										  <h4 class="modal-title" class="space">✉ Message</h4>
-										</div>
-										<div class="modal-body">
-										<form method="post">
-											<textarea rows="4" cols="100" name="message" placeholder="Write your message here">Hi,
-											</textarea>
-                                        </form>
-										</div>
-										<div class="modal-footer">
-										  <a href="#" class="btn btn-default" type="submit"data-dismiss="modal">Send</a>
-										  </form>
-										</div>
-									  </div>
-									</div>
-								  </div>
+                {% flag = 1%}
+								<a href="#" data-toggle="modal" style="font-size:small"><b> PIN POST </b></a>
+								<br><br>
 
 								{% else %}
-								<a href="#" data-toggle="modal" data-target="#myModal" class= "space" style="font-size:small"><b>✉ Message <!--$ {{ product.message }}--></b></a>
-								  <div class="modal fade" id="myModal" role="dialog">
-									<div class="modal-dialog">
-
-									 
-
+                {% flag = 0%}
+								<a href="#" data-toggle="modal" style="font-size:small"><b>PIN POST AFTER SIGN IN </b></a>
+								<br><br>
 								{% endif %}
 							
 								{% endfor %}

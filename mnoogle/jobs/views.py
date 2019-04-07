@@ -13,7 +13,7 @@ def list_jobs(request, category_slug=None):
     if query=='':
         return HttpResponseRedirect('/')
     if query:
-        jobs_list = Jobs.objects.filter(Q(slug__icontains=query)| Q(Link__icontains=query)).order_by("-Deadline")
+        jobs_list = Jobs.objects.filter(Q(Job__icontains=query)| Q(URL__icontains=query)).order_by("-Deadline")
 
     jobs_counter = jobs_list.annotate(Count('id'))
     jobs_count = len(jobs_counter)        

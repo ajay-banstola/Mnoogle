@@ -96,7 +96,6 @@ class Mixture(models.Model):
     slug = models.SlugField(max_length=100, db_index=True, null=True, blank=True)
     description = models.TextField(blank=True, null=True)
     price = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
-    #available = models.NullBooleanField(default=False, null=True)
     stock = models.PositiveIntegerField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True, null=True, blank=True)
     author = models.ForeignKey(User, default=None,on_delete=models.CASCADE, null=True)

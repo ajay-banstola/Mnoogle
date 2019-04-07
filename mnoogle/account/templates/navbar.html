@@ -17,21 +17,22 @@
   </form>
 
  {% if request.user.is_authenticated %}
-     <ul class="nav navbar-nav navbar-right">
-        <!-- <li><a href="/directmessage/message" class="btn btn-warning"><span class="badge">3</span><span class="glyphicon glyphicon-envelope" style="color: white"></span></a></li>
-         <!--<li><a href="#" class="btn btn-primary"><span class="badge">2</span><span class="glyphicon glyphicon-plus" style="color: white"></span></a></li>-->
-      <li class="dropdown"><a class="dropdown-toggle " data-toggle="dropdown" href="#"><b> {{request.user.username}}</b> <span class="glyphicon glyphicon-collapse-down"></span></a>
-        <ul class="dropdown-menu">
-            <!--<li><a href="/account/profile"><span class="glyphicon glyphicon-user"></span><b>Profile</b></a></li>
-          <li><a href="/account/add_product"><span class="glyphicon glyphicon-plus"></span><b>Add Links</b></a></li> -->
-		  <li><a href="#"><span class="glyphicon glyphicon-user"></span><b>Profile</b></a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-plus"></span><b>Add Links</b></a></li>
-          <li><a href="{% url 'account:edit_info'%}"><span class=""></span><b>Update-info</b></a></li>
-            <div class="dropdown-divider"></div>
-            <li><a href="{% url 'account:logout'%}"><span class="glyphicon glyphicon-log-out"></span><b>Logout</b></a></li>
-        </ul>
-      </li>
-    </ul>
+     <nav class="navbar">
+		<div class="container-fluid">
+		<ul class="nav navbar-nav navbar-right">	
+		    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b><big>{{request.user.username}}</big></b> <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			<!--<li><a href="account/add_product">Add links</a></li>
+			<li><a href="{% url 'account:logout'%}">Logout</a></li>
+			<li><a href="/account/profile">Profile</a></li>-->
+			<li><a href="#">Add links</a></li>
+			<li><a href="{% url 'account:logout'%}">Logout</a></li>
+			<li><a href="#">Profile</a></li>
+			</ul>
+			</li>
+			</ul>
+		</div>
+		 </nav>
 
          {% else %}
 			<ul class="nav navbar-nav navbar-right">

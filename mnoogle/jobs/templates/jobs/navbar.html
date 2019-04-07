@@ -16,17 +16,42 @@
       </div>
   </form>
 
- {% if request.user.is_authenticated %}
+
+  {% comment %} Added here {% endcomment %}
+{% if request.user.is_authenticated %}
+		<ul class="nav navbar-nav navbar-right">	
+		    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b><big>{{request.user.username}}</big></b> <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			<!--<li><a href="account/add_product">Add links</a></li>
+			<li><a href="{% url 'account:logout'%}">Logout</a></li>
+			<li><a href="/account/profile">Profile</a></li>-->
+			<li><a href="#">Add links</a></li>
+			<li><a href="{% url 'account:logout'%}">Logout</a></li>
+			<li><a href="#">Profile</a></li>
+			</ul>
+			</li>
+			</ul>
+        {% else %}
+			<ul class="nav navbar-nav navbar-right">
+			<li><a href="{% url 'account:login' %}"><b>Sign In</b></a></li>
+                <li><a href="{% url 'account:custreg'%}"><b>Register</b></a></li>
+			</ul>
+		{% endif %}
+  
+   </div>
+</nav>
+
+{% comment %} {% if request.user.is_authenticated %}
      <ul class="nav navbar-nav navbar-right">
-        <!-- <li><a href="/directmessage/message" class="btn btn-warning"><span class="badge">3</span><span class="glyphicon glyphicon-envelope" style="color: white"></span></a></li>
-         <!--<li><a href="#" class="btn btn-primary"><span class="badge">2</span><span class="glyphicon glyphicon-plus" style="color: white"></span></a></li>-->
-       <li class="dropdown"><a class="dropdown-toggle " data-toggle="dropdown" href="#"><img src="{% if user.userprofile.image %} {{ user.userprofile.image.url }} {% else %} {% static 'account/img/avatar.png' %} {% endif %}" alt=" " style="width: 30px; height: 30px; border-radius: 30%"><b> {{request.user.username}}</b> <span class="glyphicon glyphicon-collapse-down"></span></a>
+       <li class="dropdown"><a class="dropdown-toggle " 
+       data-toggle="dropdown" href="#"><img src="{% if user.userprofile.image %} {{ user.userprofile.image.url }} {% else %} {% static 'account/img/avatar.png' %} {% endif %}" 
+       alt=" " style="width: 30px; height: 30px; border-radius: 30%"><b> {{request.user.username}}</b> 
+       <span class="glyphicon glyphicon-collapse-down"></span></a></li>
+      
         <ul class="dropdown-menu">
-            <!--<li><a href="/account/profile"><span class="glyphicon glyphicon-user"></span><b>Profile</b></a></li>
-          <li><a href="/account/add_product"><span class="glyphicon glyphicon-plus"></span><b>Add Links</b></a></li> -->
 		  <li><a href="#"><span class="glyphicon glyphicon-user"></span><b>Profile</b></a></li>
           <li><a href="#"><span class="glyphicon glyphicon-plus"></span><b>Add Links</b></a></li>
-          <li><a href="{% url 'account:edit_info'%}"><span class=""></span><b>Update-info</b></a></li>
+          <li><a href="{% url 'account:edit_profile'%}"><span class=""></span><b>Update-info</b></a></li>
             <div class="dropdown-divider"></div>
             <li><a href="{% url 'account:logout'%}"><span class="glyphicon glyphicon-log-out"></span><b>Logout</b></a></li>
         </ul>
@@ -36,8 +61,7 @@
          {% else %}
 			<ul class="nav navbar-nav navbar-right">
 			<li><a href="{% url 'account:login'%}"><span class="glyphicon glyphicon-log-in"></span><b>Sign In</b></a></li>
-                <li><a href="{% url 'account:custreg'%}"><span class="glyphicon glyphicon-user"></span><b>Register</b></a></li>
+      <li><a href="{% url 'account:custreg'%}"><span class="glyphicon glyphicon-user"></span><b>Register</b></a></li>
 			</ul>
- {% endif %}
-  </div>
-</nav>
+ {% endif %} {% endcomment %}
+ 
