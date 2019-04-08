@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpRequest, HttpResponseRedirect
 # from shop.models import 
 from .models import *
+from jobs.models import *
 from .forms import *
 from django.contrib.auth.models import User
 from django.contrib import messages
@@ -16,7 +17,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserChangeForm, PasswordChangeForm
 from django.contrib.auth import update_session_auth_hash
 
-
+@login_required(login_url="/account/login")
 def products(request):
     obj = products.objects.all().order_by('name')
 
@@ -74,16 +75,16 @@ def login(request):
 # # Views to add product from user
 @login_required(login_url="/account/login")
 def add_product(request):
-    name =request.POST.get("name")
-    slug =request.POST.get("slug")
-    description = request.POST.get("description")
-    price =request.POST.get("price")
-    available =request.POST.get("available")
-    stock =request.POST.get("stock")
-    created_at =request.POST.get("created_at")
-    updated_at =request.POST.get("updated_at")
-    products = Mixture(name=name, slug = slug, description = description,
-    price = price, stock=stock)
+    Title =request.POST.get("Title")
+    URL =request.POST.get("URL")
+    #description = request.POST.get("description")
+    #price =request.POST.get("price")
+    #available =request.POST.get("available")
+    #stock =request.POST.get("stock")
+    #created_at =request.POST.get("created_at")
+    #updated_at =request.POST.get("updated_at")
+    products = Mix(Title=Title, URL = URL)
+    #price = price, stock=stock)
     products.save()
 
     return render(request, 'add_product.html')
@@ -107,10 +108,10 @@ def add_product(request):
 
 @login_required(login_url="/account/login")
 def profile(request):
-    mixtures = Mixture.objects.filter(author=request.user).order_by('-created_at')
+    #mixtures = Mix.objects.filter(author=request.user).order_by('-Title')
+    jobsprofile = Jobs.objects.filter(flag=True)
     context = {
-        'mixtures': mixtures,
-        'messages':messages,
+        'jobsprofile':jobsprofile,
     }
     return render(request, 'profile.html', context)
 
@@ -130,7 +131,17 @@ def logout(request):
     return HttpResponseRedirect('/')
 
 
+# def pinned(request):
+#     if request.GET.get('myModal'):
+#         profil = get_object_or_404(Jobs)
+#         profil.flag = True
+#         profil.save(update_fields=["flag"])
+#     return HttpResponseRedirect('/account/profile/')
+
+    
+
 # # This is the view for changing user profile information like description,profile_picture,etc
+@login_required(login_url="/account/login")
 def edit_profile(request):
     if request.method == 'POST':
         form = UserForm(request.POST or None, request.FILES or None, instance=request.user.userprofile)

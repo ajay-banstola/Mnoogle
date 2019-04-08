@@ -45,24 +45,24 @@ class UserForm(forms.ModelForm):
 
 
 class products_form(forms.ModelForm):
-    name = forms.CharField(
+    Title = forms.CharField(
         widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Name of the product:'}), required=True,
         max_length=50)
-    slug = forms.CharField(
-        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'slug of the product:'}), required=True,
+    URL = forms.URLField(
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'URL of the product:'}), required=True,
         max_length=50)
-    description = forms.CharField(
-        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Description:'}), required=True,
-        max_length=300)
-    price = forms.IntegerField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Price:'}),
-                               required=True)
-    stock = forms.IntegerField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Stock:'}),
-                               required=True)
-    image = forms.ImageField(label='Select picture of your product', required=True)
+    # description = forms.CharField(
+    #     widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Description:'}), required=True,
+    #     max_length=300)
+    # price = forms.IntegerField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Price:'}),
+    #                            required=True)
+    # stock = forms.IntegerField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Stock:'}),
+    #                            required=True)
+    # image = forms.ImageField(label='Select picture of your product', required=True)
 
     class Meta():
-        model = Mixture
-        fields = ['name', 'slug', 'description', 'price', 'stock', 'image']
+        model = Mix
+        fields = ['Title', 'URL']
 
 
 class cust_reg_form(forms.ModelForm):

@@ -112,3 +112,15 @@ class Mixture(models.Model):
 
     def get_absolute_url(self):
         return reverse('shop:product_detail', args=[self.id, self.slug])
+
+class Mix(models.Model):
+    Title = models.CharField(max_length=100, db_index=True, null=True, blank=True)
+    author = models.ForeignKey(User, default=None,on_delete=models.CASCADE, null=True)
+    URL = models.URLField(
+		max_length=128,
+		db_index=True, 
+		unique=False, 
+		blank=True
+	)  
+    def __str__(self):     
+        return self.Title

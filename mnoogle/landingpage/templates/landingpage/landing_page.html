@@ -1,6 +1,5 @@
 {% load staticfiles %}
 <html>
-
 <head>
 	<title>Mnoogle</title>
 	<meta charset="utf-8">
@@ -13,7 +12,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 {% block body %}
-    
+
 <body>	  
 	    {% if request.user.is_authenticated %}
 		<nav class="navbar">
@@ -24,7 +23,7 @@
 			<!--<li><a href="account/add_product">Add links</a></li>
 			<li><a href="{% url 'account:logout'%}">Logout</a></li>
 			<li><a href="/account/profile">Profile</a></li>-->
-			<li><a href="#">Add links</a></li>
+			<li><a href="account/add_product">Add links</a></li>
 			<li><a href="{% url 'account:logout'%}">Logout</a></li>
 			<li><a href="#">Profile</a></li>
 			</ul>

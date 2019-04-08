@@ -26,7 +26,6 @@
 
                       <div class="col-lg-12">
                         {% for job in jobs_list %}
-
                             <div class="list-group">
                                 <h2 class="text-left" style="margin: 0px">
                                     <b>{{ job.Job }}</b>
@@ -34,18 +33,62 @@
 																<h3 class="text-left" style="margin: 0px">
                                     <b>{{ job.Company }}</b>
                                 </h3>
-                                <p class ="text-left"><a href={{job.URL}} style="font-size: 14px; color: #1e7e34"><em>{{job.URL}}</em></a></p>
+                                <a href="{{job.URL}}" style="font-size: 14px; color: #1e7e34"><em>{{job.URL}}</em></a>
 																<h6 class ="text-left">{{ job.Address }}</h6>
                                 <h5 class ="text-left"><b>Deadline:</b>{{ job.Deadline }}</h5>
-								{% if request.user.is_authenticated %}
-                {% flag = 1%}
-								<a href="#" data-toggle="modal" style="font-size:small"><b> PIN POST </b></a>
-								<br><br>
+							{% if request.user.is_authenticated %}
+							<form method="post">
+								<button href="#" data-target="#myModal"><b> Pin</b></button>
+								</form>
+								  <div class="modal fade" id="myModal" role="dialog">
+									<div class="modal-dialog modal-lg">
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <button type="button" class="close" data-dismiss="modal">&times;</button>
+										  <h4 class="modal-title">Pin</h4>
+										</div>
+										<div class="modal-body">
+										<form method="post">
+											<textarea rows="4" cols="100" name="message" placeholder="Write your message here">Hi,
+											</textarea>
+                                        </form>
+										</div>
+										<div class="modal-footer">
+										  <a href="#" class="btn btn-default" type="submit"data-dismiss="modal">Send</a>
+										  </form>
+										</div>
+									  </div>
+									</div>
+								  </div>
+									<br>
+									<br>
+
 
 								{% else %}
-                {% flag = 0%}
-								<a href="#" data-toggle="modal" style="font-size:small"><b>PIN POST AFTER SIGN IN </b></a>
-								<br><br>
+								<a href="#" data-toggle="modal" data-target="#myModal"><b>Pin after login <!--$ {{ product.message }}--></b></a>
+								  <div class="modal fade" id="myModal" role="dialog">
+									<div class="modal-dialog">
+
+									  <!-- Modal content-->
+									  <div class="modal-content">
+										<div class="modal-header">
+										  <h4 class="modal-title">Mnoogle account required</h4>
+										</div>
+										<div class="modal-body">
+										  <p>You need to sign-in to send a message.</p>
+										</div>
+										<div class="modal-footer">
+										<a href="{% url 'account:login'%}" class="btn btn-default">Log-in</a>
+										<a href="{% url 'account:custreg'%}" class="btn btn-default">register</a>
+										</div>
+									  </div>
+
+									</div>
+								  </div>
+								<br>
+								<br>
+								<br>
+								
 								{% endif %}
 							
 								{% endfor %}

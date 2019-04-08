@@ -6,6 +6,7 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpRequest, HttpResponseRedirect
 from django.db.models import Count
 # Create your views here.
+
 def list_jobs(request, category_slug=None):
     users = User.objects.exclude(id=request.user.id)
     jobs_list = Jobs.objects.all()
@@ -26,3 +27,8 @@ def list_jobs(request, category_slug=None):
     }
     return render(request, 'jobs/product/list.html',context)
 
+# def pinned(request):
+#     if request.GET.get('myModal'):
+#         profil = get_object_or_404(Jobs)
+#         profil.flag = True
+#         profil.save(update_fields=["flag"])

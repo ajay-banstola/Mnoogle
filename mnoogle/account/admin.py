@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Category, Product, Mixture, UserProfile
+from .models import Category, Product, Mixture, UserProfile, Mix
 
 #class CategoryAdmin(admin.ModelAdmin):
 #    list_display = ['name', 'slug']
@@ -19,6 +19,7 @@ from .models import Category, Product, Mixture, UserProfile
 #admin.site.register(Product, ProductAdmin)
 
 admin.site.register(UserProfile)
+admin.site.register(Mix)
 
 class MixtureAdmin(admin.ModelAdmin):
     list_display = ['name', 'slug', 'price', 'stock']
