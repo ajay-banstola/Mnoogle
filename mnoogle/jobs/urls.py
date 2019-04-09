@@ -6,5 +6,6 @@ app_name = 'jobs'
 
 urlpatterns = [
     path('', views.list_jobs, name='list_jobs'),
-    path('pinned', views.pinned, name = 'pinned'),
+    # path('profile/', views.profile, name = 'profile'),
+    path('profile', views.pinned, name = 'pinned'),
 ]

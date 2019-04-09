@@ -49,9 +49,4 @@ def pinned(request,category_slug=None):
                     evert.flag = False
                 evert.save(update_fields=["flag"])
             
-    context = {
-        'job_list1':jobs_list1,
-        'users':users
-    }
-
-    return render(request, 'jobs/product/list.html',context)
+    return HttpResponseRedirect('/account/profile')
