@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.db.models import Q
 from .models import Jobs
+from .forms import *
 from django.contrib.auth.models import User
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpRequest, HttpResponseRedirect
@@ -27,8 +28,36 @@ def list_jobs(request, category_slug=None):
     }
     return render(request, 'jobs/product/list.html',context)
 
-# def pinned(request):
-#     if request.GET.get('myModal'):
-#         profil = get_object_or_404(Jobs)
-#         profil.flag = True
-#         profil.save(update_fields=["flag"])
+def pinned(request,category_slug=None):
+        #request.GET.get('pinned'):
+    users = User.objects.exclude(id=request.user.id)
+    #if request.method =='POST':
+    jobs_list1 = Jobs.objects.all()
+
+
+    # if request.method =="POST":
+    #     vari = request.POST.get('number')
+    #     vari = int(vari)
+    #     for evert in jobs_list1:
+    #         vari1 = evert.Job_Id
+           
+    #         if (vari == vari1):
+                
+    #             evert.flag = True
+    #             evert.save(update_fields=["flag"])
+    if request.method =="POST":
+        vari = request.POST.get('number')
+        vari = int(vari)
+        for evert in jobs_list1:
+            vari1 = evert.Job_Id
+           
+            if (vari == vari1):
+                
+                evert.flag = True
+                evert.save(update_fields=["flag"])        
+    context = {
+        'job_list1':jobs_list1,
+        'users':users
+    }
+
+    return render(request, 'jobs/product/list.html',context)

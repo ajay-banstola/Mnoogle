@@ -64,6 +64,9 @@ class products_form(forms.ModelForm):
         model = Mix
         fields = ['Title', 'URL']
 
+class pin(forms.Form):
+    pin= forms.CharField(label='What is your favorite fruit?', widget=forms.RadioSelect(choices=(True,False)))
+
 
 class cust_reg_form(forms.ModelForm):
     username = forms.CharField(widget=forms.TextInput(
@@ -82,9 +85,6 @@ class cust_reg_form(forms.ModelForm):
         attrs={'class': 'form-control', 'placeholder': 'Enter your last name:'}
     ), required=True, max_length=50)
 
-    # dob = forms.DateField(widget=forms.DateInput(
-    #     attrs={'class':'form-control','placeholder':'Enter your birthday:'}
-    # ), required=True,)
 
     password = forms.CharField(widget=forms.PasswordInput(
         attrs={'class': 'form-control', 'placeholder': 'Enter your password:'}

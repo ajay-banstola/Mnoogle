@@ -36,9 +36,14 @@
                                 <a href="{{job.URL}}" style="font-size: 14px; color: #1e7e34"><em>{{job.URL}}</em></a>
 																<h6 class ="text-left">{{ job.Address }}</h6>
                                 <h5 class ="text-left"><b>Deadline:</b>{{ job.Deadline }}</h5>
+																
 							{% if request.user.is_authenticated %}
-							<form method="post">
-								<button href="#" data-target="#myModal"><b> Pin</b></button>
+								
+								<form method= 'POST' action = "{% url 'jobs:pinned'%}">
+								{% csrf_token%}
+									{% comment %} <input type="checkbox" name="pinned" value="pinned"> Pin<br> {% endcomment %}
+									<input type ="hidden" name = "number" value={{job.Job_Id}}>
+								<input type="submit" value="Pin">
 								</form>
 								  <div class="modal fade" id="myModal" role="dialog">
 									<div class="modal-dialog modal-lg">
