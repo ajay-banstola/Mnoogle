@@ -34,27 +34,21 @@ def pinned(request,category_slug=None):
     #if request.method =='POST':
     jobs_list1 = Jobs.objects.all()
 
-
-    # if request.method =="POST":
-    #     vari = request.POST.get('number')
-    #     vari = int(vari)
-    #     for evert in jobs_list1:
-    #         vari1 = evert.Job_Id
-           
-    #         if (vari == vari1):
-                
-    #             evert.flag = True
-    #             evert.save(update_fields=["flag"])
     if request.method =="POST":
         vari = request.POST.get('number')
         vari = int(vari)
         for evert in jobs_list1:
             vari1 = evert.Job_Id
-           
             if (vari == vari1):
-                
-                evert.flag = True
-                evert.save(update_fields=["flag"])        
+                checkvar1 = request.POST.get('unpin') or request.POST.get('pin')
+                if (checkvar1=="Pin"):
+                    print(checkvar1)
+                    evert.flag = True
+                if (checkvar1 =="Unpin"):
+                    print(checkvar1)
+                    evert.flag = False
+                evert.save(update_fields=["flag"])
+            
     context = {
         'job_list1':jobs_list1,
         'users':users

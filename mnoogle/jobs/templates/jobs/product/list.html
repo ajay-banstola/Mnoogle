@@ -43,20 +43,26 @@
 								{% csrf_token%}
 									{% comment %} <input type="checkbox" name="pinned" value="pinned"> Pin<br> {% endcomment %}
 									<input type ="hidden" name = "number" value={{job.Job_Id}}>
-								<input type="submit" value="Pin">
+									
+								{% if job.flag == False %}	
+							<input type="submit" name = "pin" value="Pin">
+								{% else %}
+								<input type="submit" name = "unpin" value ="Unpin"> 
+								{% endif%}
 								</form>
 								  <div class="modal fade" id="myModal" role="dialog">
 									<div class="modal-dialog modal-lg">
 									  <div class="modal-content">
 										<div class="modal-header">
 										  <button type="button" class="close" data-dismiss="modal">&times;</button>
-										  <h4 class="modal-title">Pin</h4>
+										  
+											<h4 class="modal-title">Pin</h4>
 										</div>
 										<div class="modal-body">
 										<form method="post">
 											<textarea rows="4" cols="100" name="message" placeholder="Write your message here">Hi,
 											</textarea>
-                                        </form>
+                      </form>
 										</div>
 										<div class="modal-footer">
 										  <a href="#" class="btn btn-default" type="submit"data-dismiss="modal">Send</a>
@@ -80,7 +86,7 @@
 										  <h4 class="modal-title">Mnoogle account required</h4>
 										</div>
 										<div class="modal-body">
-										  <p>You need to sign-in to send a message.</p>
+										  <p>You need to sign-in to pin the post.</p>
 										</div>
 										<div class="modal-footer">
 										<a href="{% url 'account:login'%}" class="btn btn-default">Log-in</a>

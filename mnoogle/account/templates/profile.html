@@ -1,7 +1,10 @@
-{% comment %} {% extends 'jobs/base.html' %} {% endcomment %}
+ {% extends 'jobs/base.html' %} 
 {% load static %}
 
-{% block parts %}
+
+
+
+{% block content %}
 {% comment %} {% include 'navbar.html' %} {% endcomment %}
 
 	{% comment %} {% block parts %} {% endcomment %}
@@ -23,7 +26,7 @@
 		
           <div class="blog-post">
               <div class="row">
-                        <ul><H1>My pinned List</h1></ul>
+                        <ul><H1>My pinned List</h1></ul><br><br><br>
 
                       <div class="col-lg-12">
                         {% for job in jobsprofile %}
@@ -38,5 +41,6 @@
 				<h6 class ="text-left">{{ job.Address }}</h6>
                                 <h5 class ="text-left"><b>Deadline:</b>{{ job.Deadline }}</h5>
                                 <h6 class = "text-left">{{job.}}
+                                <br><br>
                                 {% endfor %}
 {% endblock %}
