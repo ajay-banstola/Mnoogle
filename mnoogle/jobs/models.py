@@ -7,7 +7,7 @@ class Jobs(models.Model):
 	Job = models.CharField(max_length=250) 
 	Company = models.TextField(max_length = 250, default="Not Available")
 	Address = models.TextField(max_length = 250, default="Not available")
-	Deadline = models.DateField(default=blank)   
+	Deadline = models.DateField(default=timezone.now)   
 	flag = models.BooleanField(default = 0)
 	URL = models.URLField(
 		max_length=128,

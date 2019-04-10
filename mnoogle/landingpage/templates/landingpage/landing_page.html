@@ -23,9 +23,10 @@
 			<!--<li><a href="account/add_product">Add links</a></li>
 			<li><a href="{% url 'account:logout'%}">Logout</a></li>
 			<li><a href="/account/profile">Profile</a></li>-->
-			<li><a href="account/add_product">Add links</a></li>
-			<li><a href="{% url 'account:logout'%}">Logout</a></li>
+			{% comment %} <li><a href="account/add_product">Add links</a></li> {% endcomment %}
 			<li><a href="#">Profile</a></li>
+			<li><a href="{% url 'account:logout'%}">Logout</a></li>
+			
 			</ul>
 			</li>
 			</ul>
