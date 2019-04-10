@@ -9,22 +9,37 @@ from django.db.models import Count
 # Create your views here.
 
 def list_jobs(request, category_slug=None):
+    search_term = ''
+    category = None
     users = User.objects.exclude(id=request.user.id)
     jobs_list = Jobs.objects.all()
+    
+    #jobs_list = paginator.get_page(page)
     query = request.GET.get('q')
     if query=='':
         return HttpResponseRedirect('/')
     if query:
         jobs_list = Jobs.objects.filter(Q(Job__icontains=query)| Q(URL__icontains=query)).order_by("-Deadline")
 
+    paginator = Paginator(jobs_list,3)
+    page = request.GET.get('page',10)
+    try:
+        products = paginator.page(page)
+    except PageNotAnInteger:
+        products = paginator.page(1)
+    except EmptyPage:
+        products = paginator.page(paginator.num_pages)
     jobs_counter = jobs_list.annotate(Count('id'))
     jobs_count = len(jobs_counter)        
 
     context = {
+        'products':products,
         'jobs_list':jobs_list,
         'jobs_count':jobs_count,
         'query':query,
         'users':users,
+        'category':category,
+        'search_term':search_term
     }
     return render(request, 'jobs/product/list.html',context)
 
